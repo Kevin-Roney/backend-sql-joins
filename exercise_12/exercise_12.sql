@@ -10,4 +10,3 @@ INNER JOIN city ON address.city_id = city.city_id
 GROUP BY city.city
 ORDER BY SUM(amount) DESC
 LIMIT 10;
-
